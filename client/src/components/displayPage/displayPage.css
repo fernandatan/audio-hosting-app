@@ -1,0 +1,25 @@
+#uploadButton {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+/* Ensure the container takes full height */
+#outer-container {
+    height: 100%;
+}
+
+/* Adjust the main content wrapper */
+#page-wrap {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

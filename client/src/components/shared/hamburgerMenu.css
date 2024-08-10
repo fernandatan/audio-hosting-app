@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Custom menu styles */
+  .bm-menu-wrap {
+    width: 30%;
+    background-color: #333 !important; /* Ensures the background color is applied */
+  }
+  
+  .bm-menu {
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Ensure the burger button is positioned correctly */
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 36px;
+    right: 36px !important;
+    top: 36px !important;
+  }
+
+  .bm-burger-bars {
+    background: #fff;
+  }
+  
+  /* Optional: Style for the menu items */
+  .menu-item {
+    color: #d1d1d1;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item:hover {
+    color: #fff;
+  }
